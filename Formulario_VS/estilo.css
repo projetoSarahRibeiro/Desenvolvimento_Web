@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    background-color: #4facfe;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #00c6ff;
+    transform: scale(1.05);
+}
+/* Título principal */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #4facfe;
+    margin-top: 25px;
+}
+
+/* Lista de disciplinas */
+.lista {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.lista li {
+    margin: 5px 0;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Botão voltar */
+.botao-voltar {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 10px 20px;
+    background-color: #4facfe;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.botao-voltar:hover {
+    background-color: #00c6ff;
+}
+/* TABELA DE HORÁRIOS */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabela th {
+    background-color: #4facfe;
+    color: white;
+    padding: 10px;
+}
+
+.tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Linha do intervalo */
+.intervalo td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.tabela th {
+    background-color: #4facfe;
+    color: white;
+    padding: 10px;
+}
+
+.tabela td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.intervalo td {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+/* FORMULÁRIO */
+.formulario {
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* CADA CAMPO */
+.campo {
+    margin-bottom: 15px;
+}
+
+/* LABEL */
+.campo label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* INPUTS */
+.formulario input,
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* CHECKBOX E RADIO */
+.campo input[type="checkbox"],
+.campo input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* BOTÕES */
+.botoes {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botoes input {
+    width: 45%;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4facfe;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botoes input:hover {
+    background-color: #00c6ff;
+}

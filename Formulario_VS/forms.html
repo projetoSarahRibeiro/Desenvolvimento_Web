@@ -3,77 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade Formulário</title>
+    <title>Formulário</title>
+
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <form action="fteste">
 
-        <label for="">RA:</label>
-        <input type="text" name="txtra" id="id_ra" placeholder="RA" size="15">
-        <br> <br> <br>
+<div class="container">
 
-        <label for="">Nome:</label>
-        <input type="text" name="txtnome" id="id_nome" placeholder="Nome" size="50" >
-        <br> <br> <br>
+    <h1>Formulário</h1>
 
-        <label for="">Idade</label>
-        <input type="number" name="txt_idade" id="id_idade" min="10" max="20" step="2">
-        <br> <br> <br>
+    <form action="fteste" class="formulario">
 
-          <label for="">Senha</label>
-        <input type="password" name="txt_senha">
-        <br> <br> <br>
+        <div class="campo">
+            <label>RA:</label>
+            <input type="text" name="txtra" placeholder="RA">
+        </div>
 
-             <label for="">Celular</label>
-        <input type="tel" name="txt_celular">
-        <br> <br> <br>
+        <div class="campo">
+            <label>Nome:</label>
+            <input type="text" name="txtnome" placeholder="Nome">
+        </div>
 
-             <label for="">Email</label>
-        <input type="email" name="txt_email">
-        <br> <br> <br>
+        <div class="campo">
+            <label>Idade:</label>
+            <input type="number" name="txt_idade" min="10" max="20" step="1">
+        </div>
 
-        <label for="">Site</label>
-        <input type="url" name="txt_site">
-        <br> <br> <br>
+        <div class="campo">
+            <label>Senha:</label>
+            <input type="password" name="txt_senha">
+        </div>
 
-        <label for="">Data</label>
-        <input type="date" name="txt_data">
-        <br> <br> <br>
+        <div class="campo">
+            <label>Celular:</label>
+            <input type="tel" name="txt_celular">
+        </div>
 
-        <label for="">Linguagem Preferida</label>
-        <input type="checkbox" name="PHP" value="PHP"> PHP
-        <input type="checkbox" name="Java" value="Java"> Java
-        <input type="checkbox" name="C" value="C"> C44
-        <br> <br> <br>
+        <div class="campo">
+            <label>Email:</label>
+            <input type="email" name="txt_email">
+        </div>
 
-          <label for="">Linguagem Preferida</label>
-        <input type="radio" name="Azul" value="txtcor"> Azul
-        <input type="radio" name="Rosa" value="txtcor"> Rosa
-        <input type="radio" name="Amarelo" value="txtcor"> Amarelo
-        <br> <br> <br>
+        <div class="campo">
+            <label>Site:</label>
+            <input type="url" name="txt_site">
+        </div>
 
-        <fieldset>
-            <legend>Estado</legend>
-            <select name="txtestado" id=""></select>
-            <optgroup label="Sudeste">
-                <option value="RJ">Rio de Janeiro</option>
-                 <option value="SP">São Paulo</option>
-                  <option value="ES">Espiríto Santo</option>
-            </optgroup>
-            <optgroup label="Sul">
-                <option value="SC">Santa Catarina</option>
-                 <option value="PR">Paraná</option>
-            </optgroup>
+        <div class="campo">
+            <label>Data:</label>
+            <input type="date" name="txt_data">
+        </div>
 
-        </fieldset>
+        <div class="campo">
+            <label>Linguagens:</label><br>
+            <input type="checkbox" name="php"> PHP
+            <input type="checkbox" name="java"> Java
+            <input type="checkbox" name="c"> C
+        </div>
 
-        <input type="reset" value="Apagar">
-        <input type="submit" value="Salvar">
+        <div class="campo">
+            <label>Cor Preferida:</label><br>
+            <input type="radio" name="cor" value="azul"> Azul
+            <input type="radio" name="cor" value="rosa"> Rosa
+            <input type="radio" name="cor" value="amarelo"> Amarelo
+        </div>
 
-        
+        <div class="campo">
+            <label>Estado:</label>
+            <select name="estado">
+                <optgroup label="Sudeste">
+                    <option>Rio de Janeiro</option>
+                    <option>São Paulo</option>
+                    <option>Espírito Santo</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option>Santa Catarina</option>
+                    <option>Paraná</option>
+                </optgroup>
+            </select>
+        </div>
 
+        <div class="botoes">
+            <input type="reset" value="Apagar">
+            <input type="submit" value="Salvar">
+        </div>
 
-        
     </form>
+
+</div>
+ 
 </body>
 </html>

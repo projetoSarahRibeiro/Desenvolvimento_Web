@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Equação do 2º Grau</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Equação do 2º Grau</h1>
+    <h3>ax² + bx + c = 0</h3>
+
+    <form action="calculo_equacao.php" method="POST" class="formulario">
+
+        <div class="campo">
+            <label>Valor de A:</label>
+            <input type="number" name="a" required>
+        </div>
+
+        <div class="campo">
+            <label>Valor de B:</label>
+            <input type="number" name="b" required>
+        </div>
+
+        <div class="campo">
+            <label>Valor de C:</label>
+            <input type="number" name="c" required>
+        </div>
+
+        <div class="botoes">
+            <input type="submit" value="Calcular">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+
+    <a class="botao-voltar" href="index.html">⬅ Voltar</a>
+
+</div>
+
+</body>
+</html>
